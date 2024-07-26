@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings
 warnings.filterwarnings("ignore")
-data=pd.read_csv("/kaggle/input/wine-quality-dataset/WineQT.csv")
+data=pd.read_csv("C:/Users/PC/Downloads/WineQT.csv")
 data.head()
 data.info()
 data.describe()
